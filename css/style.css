@@ -1,0 +1,104 @@
+body {
+  background-color: #fafafa;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.minhaborda {
+  border: 1px solid #b3abab;
+  /* box-shadow: 2px 2px 8px #605d5d; */
+}
+.principal {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  margin-bottom: 12px;
+  margin-top: 3%;
+  gap: 5%;
+  height: 498px;
+}
+.imagem {
+  flex-basis: 329px;
+}
+.entrada {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 50px 0 50px;
+  background-color: white;
+}
+.entrada img {
+  width: 15vw;
+  margin-bottom: 5%;
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+}
+.login-container input {
+  width: 225px;
+  margin: 1%;
+  margin-bottom: 5%;
+  padding: 9px;
+  background-color: #faf8f8;
+  border: 1px solid #b3abab;
+}
+.login-container::placeholder {
+  font-size: 0.1em;
+}
+.entrada button {
+  color: #fff;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10%;
+  background-color: #8bd1fe;
+}
+.entrada button:hover {
+  background-color: #1ea6ff;
+}
+.entrar-facebook {
+  border-top: 1px solid #999;
+  padding: 20px;
+  color: darkblue;
+  text-decoration: none;
+  display: flex;
+  font-weight: bold;
+  font-size: 0.9em;
+  /* align-items: center; */
+}
+.entrar-facebook img {
+  width: 20px;
+}
+.esqueceu-senha {
+  font-size: 0.8em;
+  text-decoration: none;
+  color: darkblue;
+  padding-bottom: 3%;
+}
+.cadastrar {
+  text-align: center;
+  padding: 20px;
+  margin-top: 5%;
+}
+.cadastrar a {
+  text-decoration: none;
+  color: darkblue;
+  padding: 10px;
+}
+.apps {
+  display: flex;
+  margin-top: 15px;
+  flex-flow: column wrap;
+  text-align: center;
+}
+.container-footer {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 5%;
+  gap: 3%;
+  color: grey;
+  justify-content: center;
+}
+footer p {
+  text-align: center;
+  color: grey;
+}
