@@ -26,8 +26,9 @@ body {
   padding: 20px 50px 0 50px;
   background-color: white;
 }
-.entrada img {
+.entrada-logo {
   width: 15vw;
+  min-width: 200px;
   margin-bottom: 5%;
 }
 .login-container {
@@ -101,4 +102,13 @@ body {
 footer p {
   text-align: center;
   color: grey;
+}
+@media screen and (max-width: 768px) {
+  .imagem {
+    display: none;
+  }
+  .entrada-logo {
+    width: 30vw;
+    min-width: 200px;
+  }
 }
